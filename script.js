@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const flower = document.querySelector("#animation-flower");
   const word = document.querySelector("h1");
+  const rainDrop = document.querySelector(".rain-drop");
 
   setTimeout(() => {
     flower.style.display = "inherit";
